@@ -1,0 +1,21 @@
+{
+  "name": "cover-api",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jslint": "^0.12.0",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.7",
+    "nodemon": "^1.15.1",
+    "socket.io": "^2.0.4",
+    "uuidv4": "^1.0.0"
+  }
+}
